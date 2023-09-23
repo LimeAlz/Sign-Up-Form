@@ -1,0 +1,29 @@
+body{
+    display: flex;
+}
+
+/* img{
+    height:100vh;
+    width: 35vw;
+} */
+
+.image-container{
+    height: 100vh;
+    width: 35vw;
+    background: url('asset/chi-lok-tsang-uXbanMpJ_10-unsplash.jpg');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: stretch;
+    align-items: center;
+}
+
+
+.logo{
+
+    background-color: rgba(237, 237, 229, 0.5);
+    font-size: 32px;
+    padding: 20px;
+    color: azure;
+    width: 100%;
+}
