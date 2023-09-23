@@ -1,19 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
-
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Satisfy&display=swap" rel="stylesheet">
 
     <title>Sign Up Form</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="image-container">
-        <div class="logo">Dress Up Man</div>
+      <div class="logo">
+        
+        <img src="asset/top-hat.png" alt="top hat logo">
+        Dress Up Man
     </div>
-    <div class="form-container"></div>
-    <!-- Photo by Chi Lok TSANG on Unsplash -->
-</body>
+     <!-- Photo by Chi Lok TSANG on Unsplash -->
+    <!-- <a target="_blank" href="https://icons8.com/icon/kFcTH0PMUhhS/top-hat">Top Hat</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a> -->
+  </body>
+    </div>
+    <div class="form-container">
+        <div class="header">
+            <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign Up now to get dressed.</p>
+            <p>You know you want to.</p>
+        </div>
+        <div class="form-content">
+            <legend class=legend>Let's do this!</legend>
+            <form action="get" class="form">
+              
+                <fieldset class="fs">
+                    <label for="f_name">FIRST NAME</label>
+                    <input type="text" name="f_name" id="f_name" required>
+
+                    <label for="email">EMAIL</label>
+                    <input type="email" name="email" id="email" required>
+
+                    <label for="password">PASSWORD</label>
+                    <input type="password" name="password" id="password" required>
+                </fieldset>
+                <fieldset class="fs">
+                    <label for="l_name">LAST NAME</label>
+                    <input type="text" name="l_name" id="l_name" required>
+
+                    <label for="ph-no">PHONE NUMBER</label>
+                    <input type="tel" name="ph-no" id="ph-no" required>
+
+                    <label for="co-password">CONFIRM  PASSWORD</label>
+                    <input type="password" name="co-password" id="co-password" required>
+                </fieldset>
+            </form>
+        </div>
+        <div class="footer">
+            <button type="button" class="create-btn"> Create Account</button>
+            <p class="footer-text">Already have an account? <a href="#">Log In</a></p>
+        </div>
+    </div>
+   
 </html>
